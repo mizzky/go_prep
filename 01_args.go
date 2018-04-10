@@ -16,6 +16,7 @@ func main() {
 
 	// param1
 	fmt.Printf("arg1: %s\n", os.Args[1])
+	// param2
 	fmt.Printf("arg2: %s\n", os.Args[2])
 	
 }

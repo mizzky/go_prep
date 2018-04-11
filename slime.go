@@ -1,8 +1,8 @@
 // +build ignore
 // ----------------------------------
 // this is first cli program..
-// date 		: 2018/04/11
-// author 	:	mizzky
+// date    :  2018/04/11
+// author  :  mizzky
 // ----------------------------------
 
 package main
@@ -18,7 +18,7 @@ import (
 var (
 	show_version  = flag.Bool("version", false, "show version")
 	show_artClose = flag.Bool("close", false, "show asciiart number")
-	show_fav = flag.Bool("fav", false, "show asciiart number")
+	show_fav      = flag.Bool("fav", false, "show asciiart number")
 )
 
 const (

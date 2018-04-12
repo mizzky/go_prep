@@ -1,10 +1,10 @@
+// +build ignore
 package main
 
 import (
 	"fmt"
 	"os"
 )
-
 
 func main() {
 
@@ -18,5 +18,5 @@ func main() {
 	fmt.Printf("arg1: %s\n", os.Args[1])
 	// param2
 	fmt.Printf("arg2: %s\n", os.Args[2])
-	
+
 }

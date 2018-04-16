@@ -4,7 +4,7 @@ package cmd
 
 import "fmt"
 
-var (
+const (
 
 	str_01 = 
 " 	　　. ＼：／ \n

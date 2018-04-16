@@ -2,6 +2,7 @@ package cmd
 
 import "fmt"
 
+// ArtClose is asciiart
 func ArtClose() {
 	str := `
 	┻┳| 閉めますよ |┳┻ 
@@ -13,6 +14,7 @@ func ArtClose() {
 	fmt.Println(str)
 }
 
+// ArtFav is asciiart
 func ArtFav() {
 	str := `
 	　　. ＼：／ 

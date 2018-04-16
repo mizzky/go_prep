@@ -5,6 +5,11 @@ package main
 import "fmt"
 
 func main() {
+	A()
+}
+
+// pattern A
+func A() {
 	n := 3
 
 	switch n {
@@ -16,3 +21,5 @@ func main() {
 		fmt.Println("unknown")
 	}
 }
+
+// pattern B

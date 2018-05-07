@@ -1,11 +1,6 @@
 // +build ignore
-// ----------------------------------
-// this is first cli program..
-// date    :  2018/04/11
-// author  :  mizzky
-// ----------------------------------
 
-package main
+package cli_prep
 
 import (
 	"flag"

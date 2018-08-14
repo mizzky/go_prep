@@ -51,8 +51,6 @@ func getFilesize(dir string) []int64 {
 
 		fileSize := fileInfo.Size()
 		sizes = append(sizes, fileSize)
-		//fmt.Printf("fileName --> %v", file.Name())
-		//fmt.Printf("fileSize --> %v \n", fileSize)
 	}
 	return sizes
 }

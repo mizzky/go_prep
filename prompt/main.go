@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"io/ioutil"
+	"log"
 	"os"
 	"path/filepath"
 )
@@ -15,6 +16,9 @@ func main() {
 	//fmt.Println(getdir(os.Args[1]))
 	fmt.Println(getdir(os.Args[1]))
 	fmt.Println(getFilesize(os.Args[1]))
+
+	fmt.Println("getfilepath -----")
+	GetFilePath(".")
 }
 
 func getdir(dir string) []string {
@@ -53,4 +57,13 @@ func getFilesize(dir string) []int64 {
 		sizes = append(sizes, fileSize)
 	}
 	return sizes
+}
+
+//GetFilePath is get filename from filepath
+func GetFilePath(dir string) {
+	p, err := filepath.Abs(dir)
+	if err != nil {
+		log.Fatal(err)
+	}
+	println(filepath.Base(p))
 }
